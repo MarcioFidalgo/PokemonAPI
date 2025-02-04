@@ -1,0 +1,115 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(209, 209, 209);
+}
+
+#ativo {
+  background-color: rgb(79, 254, 90);
+  width: 25px;
+  height: 25px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.imagem {
+  text-decoration: none;
+  width: 291.6px;
+  height: 291.6px;
+  border: 20px solid #ff6550;
+  border-radius: 19px;
+  border-top: 45px solid rgb(206, 0, 0);
+  border-bottom: 45px solid rgb(206, 0, 0);
+  background-color: rgb(0, 201, 204);
+  box-shadow: 0px 24px 12px 3px rgba(0, 0, 0, 0.41) inset;
+  -webkit-box-shadow: 0px 24px 12px 3px rgba(0, 0, 0, 0.41) inset;
+  -moz-box-shadow: 0px 24px 12px 3px rgba(0, 0, 0, 0.41) inset;
+}
+
+#personagemId {
+  height: 26px;
+}
+
+#btn-go {
+  height: 30px;
+}
+
+#base1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+}
+
+input {
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(247, 252, 0);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(144, 192, 238);
+  margin-left: 5px;
+}
+
+span {
+  margin-top: 450px;
+  position: absolute;
+  display: block;
+}
+
+#icon {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(0, 0, 176);
+  border: 5px solid black;
+  margin-top: 335px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#icon2{
+  width: 291.6px;
+  height: 50px;
+  background-color: rgb(206, 0, 0);
+  margin-top: 310px;
+  position: absolute;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+}
+
+#icon3 {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid black;
+  margin-top: 352px;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 999;
+}
+
+hr{
+  width: 45px;
+  height: 2px;
+  border: 1px solid black;
+  background-color: black;
+  margin-top: 361px;
+  position: absolute;
+  border-top-right-radius: 80px;
+  border-top-left-radius: 80px;
+}
+
+#container2{
+  background-color: rgb(76, 0, 117);
+  border: 3px solid cyan;
+  color: white;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
